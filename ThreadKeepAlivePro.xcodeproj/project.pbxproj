@@ -14,6 +14,7 @@
 		5DC089432A3B3A41009F1788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC089422A3B3A41009F1788 /* Assets.xcassets */; };
 		5DC089462A3B3A41009F1788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC089442A3B3A41009F1788 /* LaunchScreen.storyboard */; };
 		5DC089492A3B3A41009F1788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC089482A3B3A41009F1788 /* main.m */; };
+		5DC089512A3B3BA9009F1788 /* CFPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC089502A3B3BA9009F1788 /* CFPermenantThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		5DC089452A3B3A41009F1788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DC089472A3B3A41009F1788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DC089482A3B3A41009F1788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DC0894F2A3B3BA9009F1788 /* CFPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPermenantThread.h; sourceTree = "<group>"; };
+		5DC089502A3B3BA9009F1788 /* CFPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPermenantThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5DC0893A2A3B3A3F009F1788 /* SceneDelegate.m */,
 				5DC0893C2A3B3A3F009F1788 /* ViewController.h */,
 				5DC0893D2A3B3A3F009F1788 /* ViewController.m */,
+				5DC0894F2A3B3BA9009F1788 /* CFPermenantThread.h */,
+				5DC089502A3B3BA9009F1788 /* CFPermenantThread.m */,
 				5DC0893F2A3B3A3F009F1788 /* Main.storyboard */,
 				5DC089422A3B3A41009F1788 /* Assets.xcassets */,
 				5DC089442A3B3A41009F1788 /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC089512A3B3BA9009F1788 /* CFPermenantThread.m in Sources */,
 				5DC0893E2A3B3A3F009F1788 /* ViewController.m in Sources */,
 				5DC089382A3B3A3F009F1788 /* AppDelegate.m in Sources */,
 				5DC089492A3B3A41009F1788 /* main.m in Sources */,
